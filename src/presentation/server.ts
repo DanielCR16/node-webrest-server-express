@@ -23,7 +23,7 @@ async start(){
     
     //* MIDDLEWARES : Es una funcion que se va a ejecutar cuando pase por esa linea
     this.app.use(express.json());
-    this.app.use(express.urlencoded({extended:true}));
+    this.app.use(express.urlencoded({extended:true})); // x-www-form-urlencoded
     //* Public Folders
     this.app.use(express.static(this.publicPath));
 
