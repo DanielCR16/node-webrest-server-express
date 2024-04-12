@@ -26,7 +26,7 @@ async start(){
     this.app.use(express.urlencoded({extended:true})); // x-www-form-urlencoded
     //* Public Folders
     this.app.use(express.static(this.publicPath));
-
+    //
     //* Routes
     this.app.use(this.routes);
     //* SPA
