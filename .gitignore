@@ -5,4 +5,3 @@ keys/
 
 /postgres
 dist/
-docker-compose.yml
